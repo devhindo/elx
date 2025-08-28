@@ -1,3 +1,4 @@
+# Elixir
 /_build
 /cover
 /deps
@@ -8,3 +9,17 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
